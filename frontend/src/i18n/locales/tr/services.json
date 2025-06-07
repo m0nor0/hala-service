@@ -1,0 +1,25 @@
+{
+  "categories": {
+    "meet_greet": "Karşılama ve Uğurlama",
+    "lounges": "Havalimanı Salonları",
+    "vip": "VIP Hizmetleri",
+    "transfer": "Transfer Hizmetleri",
+    "baggage": "Bagaj Hizmetleri",
+    "chauffeur": "Şoför Hizmetleri"
+  },
+  "descriptions": {
+    "meet_greet": "Havalimanı işlemlerinde kişisel asistanlık",
+    "lounges": "Premium olanaklarla konforlu bekleme alanları",
+    "vip": "Özel hizmetlerle ayrıcalıklı havalimanı deneyimi",
+    "transfer": "Hedefinize güvenilir havalimanı transferi",
+    "baggage": "Bagajınızın profesyonel yönetimi",
+    "chauffeur": "Profesyonel sürücülerle lüks araç hizmeti"
+  },
+  "features": {
+    "fast_track": "Hızlı Geçiş Hizmeti",
+    "priority_checkin": "Öncelikli Check-in",
+    "lounge_access": "Salon Erişimi",
+    "porter_service": "Hamal Hizmeti",
+    "private_security": "Özel Güvenlik Geçişi"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "general": {
+    "something_wrong": "Something went wrong",
+    "try_again": "Please try again later",
+    "not_found": "Page not found",
+    "unauthorized": "Unauthorized access",
+    "session_expired": "Your session has expired"
+  },
+  "form": {
+    "invalid_input": "Please check your input",
+    "required_fields": "Please fill in all required fields",
+    "invalid_date": "Please select a valid date",
+    "past_date": "Cannot select a past date"
+  },
+  "booking": {
+    "unavailable": "Service unavailable for selected date/time",
+    "conflict": "Booking time conflicts with another service",
+    "capacity_full": "Service capacity full for selected time",
+    "payment_failed": "Payment processing failed",
+    "submission_failed": "Submission Failed"
+  },
+  "network": {
+    "offline": "You are offline",
+    "server_error": "Server error occurred",
+    "timeout": "Request timed out",
+    "connection_lost": "Connection lost"
+  }
+}

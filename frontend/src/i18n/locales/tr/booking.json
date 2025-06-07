@@ -1,0 +1,84 @@
+{
+  "form": {
+    "passenger_details": "Yolcu Bilgileri",
+    "flight_details": "Uçuş Bilgileri",
+    "service_selection": "Hizmet Seçimi",
+    "payment_details": "Ödeme Bilgileri"
+  },
+  "fields": {
+    "full_name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "flight_number": "Uçuş Numarası",
+    "date": "Tarih",
+    "time": "Saat",
+    "passengers": "Yolcu Sayısı",
+    "special_requests": "Özel İstekler",
+    "payment_method": "Ödeme Yöntemi",
+    "card_number": "Kart Numarası",
+    "card_name": "Kart Üzerindeki İsim",
+    "expiry_date": "Son Kullanma Tarihi",
+    "cvv": "CVV",
+    "save_payment_info": "Ödeme bilgilerini gelecekteki rezervasyonlar için kaydet",
+    "nationality": "Uyruk",
+    "select_nationality": "Uyruk Seçin",
+    "passport_number": "Pasaport Numarası",
+    "airline": "Havayolu",
+    "select_airline": "Havayolu Seçin",
+    "return_date": "Dönüş Tarihi",
+    "return_time": "Dönüş Saati",
+    "one_way": "Tek Yön",
+    "round_trip": "Gidiş-Dönüş",
+    "special_requests_placeholder": "Herhangi bir özel istek veya ek bilgi"
+  },
+  "validation": {
+    "required": "Bu alan zorunludur",
+    "invalid_email": "Lütfen geçerli bir e-posta adresi girin",
+    "invalid_phone": "Lütfen geçerli bir telefon numarası girin",
+    "invalid_flight": "Lütfen geçerli bir uçuş numarası girin",
+    "invalid_card_number": "Lütfen geçerli bir kart numarası girin",
+    "invalid_expiry_date": "Lütfen geçerli bir son kullanma tarihi girin (AA/YY)",
+    "invalid_cvv": "Lütfen geçerli bir CVV kodu girin",
+    "return_date_required": "Gidiş-dönüş seyahatleri için dönüş tarihi gereklidir",
+    "return_time_required": "Gidiş-dönüş seyahatleri için dönüş saati gereklidir"
+  },
+  "status": {
+    "confirmed": "Rezervasyon Onaylandı",
+    "pending": "Onay Bekliyor",
+    "cancelled": "Rezervasyon İptal Edildi",
+    "completed": "Hizmet Tamamlandı",
+    "success": "Rezervasyon Onaylandı",
+    "error": "Rezervasyon Başarısız"
+  },
+  "payment_verification": {
+    "title": "Ödeme Doğrulaması Gerekli",
+    "intro": "Rezervasyonunuzu tamamlamak için, lütfen e-posta veya telefonunuza gönderilen kodu kullanarak ödemenizi doğrulayın.",
+    "instructions": "Lütfen aşağıya 6 haneli doğrulama kodunu girin:",
+    "code_placeholder": "6 haneli kodu girin",
+    "verifying": "Doğrulanıyor...",
+    "success": "Ödeme Doğrulandı!",
+    "booking_details": "Rezervasyon Detayları",
+    "errors": {
+      "invalid_code": "Geçersiz doğrulama kodu. Lütfen tekrar deneyin.",
+      "expired": "Doğrulama kodunun süresi doldu. Lütfen yeni bir kod isteyin.",
+      "max_attempts": "Maksimum doğrulama denemesine ulaşıldı. Lütfen destek ile iletişime geçin.",
+      "not_found": "Rezervasyon referansı bulunamadı. Lütfen kontrol edip tekrar deneyin.",
+      "network_error": "Ağ hatası oluştu. Lütfen bağlantınızı kontrol edip tekrar deneyin.",
+      "timeout": "İstek zaman aşımına uğradı. Lütfen tekrar deneyin."
+    }
+  },
+  "confirmation": {
+    "message": "Rezervasyonunuz için teşekkür ederiz. Tüm detayları içeren bir onay e-postası gönderdik.",
+    "reference": "Rezervasyon Referansı",
+    "details": "Rezervasyon Detayları",
+    "return_home": "Ana Sayfaya Dön"
+  },
+  "summary": {
+    "booking_confirmed": "Rezervasyon Onaylandı!",
+    "booking_reference": "Rezervasyon Referansı",
+    "thank_you": "Rezervasyonunuz için teşekkür ederiz. Tüm detayları içeren bir onay e-postası gönderdik.",
+    "total": "Toplam",
+    "no_services": "Seçili hizmet yok",
+    "order_summary": "Sipariş Özeti"
+  }
+}

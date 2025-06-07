@@ -1,0 +1,28 @@
+{
+  "general": {
+    "something_wrong": "Bir şeyler yanlış gitti",
+    "try_again": "Lütfen daha sonra tekrar deneyin",
+    "not_found": "Sayfa bulunamadı",
+    "unauthorized": "Yetkisiz erişim",
+    "session_expired": "Oturumunuz sona erdi"
+  },
+  "form": {
+    "invalid_input": "Lütfen girişlerinizi kontrol edin",
+    "required_fields": "Lütfen tüm zorunlu alanları doldurun",
+    "invalid_date": "Lütfen geçerli bir tarih seçin",
+    "past_date": "Geçmiş bir tarih seçilemez"
+  },
+  "booking": {
+    "unavailable": "Seçilen tarih/saat için hizmet mevcut değil",
+    "conflict": "Rezervasyon zamanı başka bir hizmetle çakışıyor",
+    "capacity_full": "Seçilen zaman için hizmet kapasitesi dolu",
+    "payment_failed": "Ödeme işlemi başarısız oldu",
+    "submission_failed": "Gönderim Başarısız"
+  },
+  "network": {
+    "offline": "İnternet bağlantınız yok",
+    "server_error": "Sunucu hatası oluştu",
+    "timeout": "İstek zaman aşımına uğradı",
+    "connection_lost": "Bağlantı kesildi"
+  }
+}

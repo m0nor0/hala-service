@@ -1,0 +1,99 @@
+{
+  "hero": {
+    "title": "Book Your Airport Transfer",
+    "subtitle": "Fast, reliable, and comfortable airport transfers at competitive prices"
+  },
+  "title": "Book Your Service",
+  "subtitle": "Fill out the form below to book your airport transfer service",
+  "form": {
+    "passenger_details": "Passenger Details",
+    "flight_details": "Flight Details",
+    "service_selection": "Service Selection",
+    "payment_details": "Payment Details"
+  },
+  "fields": {
+    "full_name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "nationality": "Nationality",
+    "select_nationality": "Select Nationality",
+    "passport_number": "Passport Number",
+    "flight_number": "Flight Number",
+    "airline": "Airline",
+    "select_airline": "Select Airline",
+    "date": "Date",
+    "time": "Time",
+    "return_date": "Return Date",
+    "return_time": "Return Time",
+    "passengers": "Number of Passengers",
+    "special_requests": "Special Requests",
+    "special_requests_placeholder": "Any special requirements or additional information",
+    "one_way": "One Way",
+    "round_trip": "Round Trip",
+    "payment_method": "Payment Method",
+    "card_number": "Card Number",
+    "card_name": "Name on Card",
+    "expiry_date": "Expiry Date",
+    "cvv": "CVV",
+    "save_payment_info": "Save payment information for future bookings"
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "invalid_phone": "Please enter a valid phone number",
+    "invalid_card": "Please enter a valid card number",
+    "invalid_expiry": "Please enter a valid expiry date (MM/YY)",
+    "invalid_cvv": "Please enter a valid CVV code",
+    "return_date_required": "Return date is required for round trips",
+    "return_time_required": "Return time is required for round trips"
+  },
+  "summary": {
+    "booking_confirmed": "Booking Confirmed!",
+    "booking_reference": "Booking Reference",
+    "thank_you": "Thank you for your booking. We have sent a confirmation email with all the details.",
+    "total": "Total",
+    "no_services": "No services selected",
+    "order_summary": "Order Summary"
+  },
+  "confirmation": {
+    "message": "Thank you for your booking. We have sent a confirmation email with all the details.",
+    "reference": "Booking Reference",
+    "details": "Booking Details",
+    "return_home": "Return to Home"
+  },
+  "status": {
+    "success": "Booking Confirmed",
+    "error": "Booking Failed"
+  },
+  "errors": {
+    "validation_incomplete": "Please complete all required fields before submitting.",
+    "unexpected_error": "An unexpected error occurred. Please try again later.",
+    "network_error": "Network error. Please check your internet connection and try again.",
+    "timeout_error": "The request timed out. Please try again.",
+    "submit_error": "Failed to create booking",
+    "validation_error": "Please check your information and try again.",
+    "payment_error": "There was an issue processing your payment. Please check your payment details.",
+    "service_unavailable": "The service is temporarily unavailable. Please try again later."
+  },
+  "payment_verification": {
+    "title": "Payment Verification Required",
+    "intro": "To complete your booking, please verify your payment using the code sent to your email or phone.",
+    "instructions": "Please enter the 6-digit verification code below:",
+    "code_placeholder": "Enter 6-digit code",
+    "verifying": "Verifying...",
+    "success": "Payment Verified!",
+    "booking_details": "Booking Details",
+    "code_required": "Verification code is required",
+    "invalid_format": "Please enter a valid 6-digit verification code",
+    "processing": "Processing card payment...",
+    "error": "Error verifying payment",
+    "errors": {
+      "invalid_code": "Invalid verification code. Please try again.",
+      "expired": "Verification code has expired. Please request a new one.",
+      "max_attempts": "Maximum verification attempts reached. Please contact support.",
+      "not_found": "Booking reference not found. Please check and try again.",
+      "network_error": "Network error occurred. Please check your connection and try again.",
+      "timeout": "Request timed out. Please try again."
+    }
+  }
+}

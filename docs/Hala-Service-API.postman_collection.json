@@ -1,0 +1,174 @@
+{
+  "info": {
+    "_postman_id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+    "name": "Hala Service API",
+    "description": "API collection for Hala Service booking system",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Bookings",
+      "item": [
+        {
+          "name": "Create Booking",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\",\n  \"email\": \"john.doe@example.com\",\n  \"phone\": \"+1234567890\",\n  \"nationality\": \"United States\",\n  \"passportNumber\": \"A12345678\",\n  \"flightNumber\": \"EK203\",\n  \"airline\": \"Emirates\",\n  \"tripType\": \"roundTrip\",\n  \"departureDate\": \"2023-12-15T00:00:00.000Z\",\n  \"departureTime\": \"10:30\",\n  \"returnDate\": \"2023-12-25T00:00:00.000Z\",\n  \"returnTime\": \"14:45\",\n  \"selectedServices\": [\n    {\n      \"id\": \"service1\",\n      \"name\": \"Airport Transfer\",\n      \"price\": 50,\n      \"quantity\": 1\n    },\n    {\n      \"id\": \"service2\",\n      \"name\": \"VIP Lounge Access\",\n      \"price\": 75,\n      \"quantity\": 2\n    }\n  ],\n  \"paymentMethod\": \"creditCard\",\n  \"cardNumber\": \"4111111111111111\",\n  \"cardName\": \"John Doe\",\n  \"cardExpiry\": \"12/25\",\n  \"cardCVV\": \"123\",\n  \"savePaymentInfo\": true,\n  \"totalPrice\": 200\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings"]
+            },
+            "description": "Create a new booking"
+          },
+          "response": []
+        },
+        {
+          "name": "Get All Bookings",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings"]
+            },
+            "description": "Get all bookings"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Booking by ID",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings/{{bookingId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings", "{{bookingId}}"]
+            },
+            "description": "Get a single booking by ID"
+          },
+          "response": []
+        },
+        {
+          "name": "Get Booking by Reference Number",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings/reference/{{referenceNumber}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings", "reference", "{{referenceNumber}}"]
+            },
+            "description": "Get a booking by reference number"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Booking",
+          "request": {
+            "method": "PUT",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"firstName\": \"John\",\n  \"lastName\": \"Doe\",\n  \"email\": \"john.updated@example.com\",\n  \"phone\": \"+1234567890\",\n  \"nationality\": \"United States\",\n  \"passportNumber\": \"A12345678\",\n  \"flightNumber\": \"EK203\",\n  \"airline\": \"Emirates\",\n  \"tripType\": \"roundTrip\",\n  \"departureDate\": \"2023-12-15T00:00:00.000Z\",\n  \"departureTime\": \"10:30\",\n  \"returnDate\": \"2023-12-25T00:00:00.000Z\",\n  \"returnTime\": \"14:45\",\n  \"selectedServices\": [\n    {\n      \"id\": \"service1\",\n      \"name\": \"Airport Transfer\",\n      \"price\": 50,\n      \"quantity\": 1\n    },\n    {\n      \"id\": \"service2\",\n      \"name\": \"VIP Lounge Access\",\n      \"price\": 75,\n      \"quantity\": 2\n    }\n  ],\n  \"paymentMethod\": \"creditCard\",\n  \"cardNumber\": \"4111111111111111\",\n  \"cardName\": \"John Doe\",\n  \"cardExpiry\": \"12/25\",\n  \"cardCVV\": \"123\",\n  \"savePaymentInfo\": true,\n  \"totalPrice\": 200\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings/{{bookingId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings", "{{bookingId}}"]
+            },
+            "description": "Update an existing booking"
+          },
+          "response": []
+        },
+        {
+          "name": "Delete Booking",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings/{{bookingId}}",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings", "{{bookingId}}"]
+            },
+            "description": "Delete a booking"
+          },
+          "response": []
+        },
+        {
+          "name": "Update Booking Status",
+          "request": {
+            "method": "PATCH",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"status\": \"confirmed\"\n}"
+            },
+            "url": {
+              "raw": "{{baseUrl}}/api/bookings/{{bookingId}}/status",
+              "host": ["{{baseUrl}}"],
+              "path": ["api", "bookings", "{{bookingId}}", "status"]
+            },
+            "description": "Update the status of a booking"
+          },
+          "response": []
+        }
+      ],
+      "description": "Endpoints for managing bookings"
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    },
+    {
+      "listen": "test",
+      "script": {
+        "type": "text/javascript",
+        "exec": [""]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://localhost:5000",
+      "type": "string"
+    },
+    {
+      "key": "bookingId",
+      "value": "your-booking-id",
+      "type": "string"
+    },
+    {
+      "key": "referenceNumber",
+      "value": "your-reference-number",
+      "type": "string"
+    }
+  ]
+}

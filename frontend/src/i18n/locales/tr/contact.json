@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Bize Ulaşın",
+    "subtitle": "Tüm havalimanı hizmet ihtiyaçlarınız için buradayız"
+  },
+  "page": {
+    "title": "İletişime Geçin",
+    "subtitle": "Sorularınız mı var veya yardıma mı ihtiyacınız var? Müşteri hizmetleri ekibimizle iletişime geçin."
+  },
+  "form": {
+    "name": "Ad Soyad",
+    "email": "E-posta Adresi",
+    "phone": "Telefon Numarası",
+    "subject": "Konu",
+    "message": "Mesaj",
+    "submit": "Mesaj Gönder",
+    "success": "Mesajınız başarıyla gönderildi. En kısa sürede size geri döneceğiz.",
+    "error": "Mesajınızı gönderirken bir hata oluştu. Lütfen tekrar deneyin."
+  },
+  "contact_info": {
+    "title": "İletişim Bilgileri",
+    "address": {
+      "title": "Adres",
+      "line1": "Hala Servis Ofisi",
+      "line2": "Terminal 3, Dubai Uluslararası Havalimanı",
+      "line3": "Dubai, Birleşik Arap Emirlikleri"
+    },
+    "phone": {
+      "title": "Telefon",
+      "number": "+971 4 123 4567"
+    },
+    "email": {
+      "title": "E-posta",
+      "address": "info@halaservice.com"
+    },
+    "hours": {
+      "title": "Çalışma Saatleri",
+      "schedule": "24/7, yılın 365 günü"
+    }
+  },
+  "faq": {
+    "title": "Sık Sorulan Sorular",
+    "questions": [
+      {
+        "question": "Hizmetlerinizi ne kadar önceden rezervasyon yapmalıyım?",
+        "answer": "Özellikle yoğun seyahat sezonlarında müsaitlik sağlamak için en az 48 saat önceden rezervasyon yapmanızı öneririz. Ancak, mümkün olduğunda son dakika taleplerini de karşılıyoruz."
+      },
+      {
+        "question": "Rezervasyonumu değiştirebilir veya iptal edebilir miyim?",
+        "answer": "Evet, planlanan hizmetinizden 24 saat öncesine kadar rezervasyonunuzu değiştirebilir veya iptal edebilirsiniz. Yardım için lütfen müşteri hizmetleri ekibimizle iletişime geçin."
+      },
+      {
+        "question": "Tüm terminallerde hizmet veriyor musunuz?",
+        "answer": "Evet, hizmetlerimiz Dubai Uluslararası Havalimanı ve Al Maktoum Uluslararası Havalimanı'nın tüm terminallerinde mevcuttur."
+      },
+      {
+        "question": "Havalimanında personelinizi nasıl tanırım?",
+        "answer": "Personelimiz, adınızı gösteren dijital veya fiziksel bir tabela ile sizi bekliyor olacak. Hala Servis logolu ayırt edici üniformalar giyerler."
+      }
+    ]
+  }
+}

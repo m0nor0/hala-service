@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with all your airport service needs"
+  },
+  "page": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions or need assistance? Reach out to our customer service team."
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "success": "Your message has been sent successfully. We'll get back to you soon.",
+    "error": "There was an error sending your message. Please try again."
+  },
+  "contact_info": {
+    "title": "Contact Information",
+    "address": {
+      "title": "Address",
+      "line1": "Hala Service Office",
+      "line2": "Terminal 3, Dubai International Airport",
+      "line3": "Dubai, United Arab Emirates"
+    },
+    "phone": {
+      "title": "Phone",
+      "number": "+971 4 123 4567"
+    },
+    "email": {
+      "title": "Email",
+      "address": "info@halaservice.com"
+    },
+    "hours": {
+      "title": "Working Hours",
+      "schedule": "24/7, 365 days a year"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How far in advance should I book your services?",
+        "answer": "We recommend booking at least 48 hours in advance to ensure availability, especially during peak travel seasons. However, we do accommodate last-minute requests when possible."
+      },
+      {
+        "question": "Can I modify or cancel my booking?",
+        "answer": "Yes, you can modify or cancel your booking up to 24 hours before your scheduled service. Please contact our customer service team for assistance."
+      },
+      {
+        "question": "Do you provide services at all terminals?",
+        "answer": "Yes, our services are available at all terminals of Dubai International Airport and Al Maktoum International Airport."
+      },
+      {
+        "question": "How do I identify your staff at the airport?",
+        "answer": "Our staff will be waiting for you with a digital or physical sign displaying your name. They wear distinctive uniforms with the Hala Service logo."
+      }
+    ]
+  }
+}

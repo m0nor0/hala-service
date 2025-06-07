@@ -1,0 +1,26 @@
+{
+  "navigation": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "booking": "Rezervasyon",
+    "profile": "Profilim",
+    "contact": "İletişim"
+  },
+  "buttons": {
+    "submit": "Gönder",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "next": "İleri",
+    "back": "Geri",
+    "processing": "İşleniyor...",
+    "verify": "Ödemeyi Doğrula"
+  },
+  "footer": {
+    "about": "Hakkımızda",
+    "terms": "Şartlar ve Koşullar",
+    "privacy": "Gizlilik Politikası",
+    "copyright": "© 2024 Hala Service. Tüm hakları saklıdır."
+  }
+}

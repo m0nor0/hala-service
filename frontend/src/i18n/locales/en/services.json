@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Our Premium Services",
+    "subtitle": "Experience luxury and convenience with our comprehensive airport services"
+  },
+  "categories": {
+    "meet_greet": "Meet & Greet",
+    "lounges": "Airport Lounges",
+    "vip": "VIP Services",
+    "transfer": "Transfer Services",
+    "baggage": "Baggage Handling",
+    "chauffeur": "Chauffeur Services"
+  },
+  "descriptions": {
+    "meet_greet": "Personal assistance through airport procedures",
+    "lounges": "Comfortable waiting areas with premium amenities",
+    "vip": "Exclusive airport experience with dedicated service",
+    "transfer": "Reliable airport transfers to your destination",
+    "baggage": "Professional handling of your luggage",
+    "chauffeur": "Luxury vehicle service with professional drivers"
+  },
+  "features": {
+    "fast_track": "Fast Track Service",
+    "priority_checkin": "Priority Check-in",
+    "lounge_access": "Lounge Access",
+    "porter_service": "Porter Service",
+    "private_security": "Private Security Lane"
+  }
+}

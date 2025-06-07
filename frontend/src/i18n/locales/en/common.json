@@ -1,0 +1,34 @@
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "booking": "Book Now",
+    "profile": "My Profile",
+    "contact": "Contact Us"
+  },
+  "buttons": {
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "edit": "Edit",
+    "delete": "Delete",
+    "next": "Next",
+    "back": "Back",
+    "processing": "Processing...",
+    "verify": "Verify Payment"
+  },
+  "footer": {
+    "about": "About Us",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2024 Hala Service. All rights reserved."
+  },
+  "hero": {
+    "home_title": "Premium Airport Services",
+    "home_subtitle": "Elevate your travel experience with our exclusive airport services"
+  },
+  "booking": {
+    "hero_title": "Book Your Airport Service",
+    "hero_subtitle": "Fast, reliable, and luxurious airport services tailored to your needs"
+  }
+}

@@ -1,0 +1,43 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: hala-mongo
+    restart: always
+    ports:
+      - '27017:27017'
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: password
+    volumes:
+      - mongodb_data:/data/db
+
+  backend:
+    build: ./hala-service/backend
+    container_name: hala-backend
+    restart: always
+    ports:
+      - '5000:5000'
+    environment:
+      - NODE_ENV=development
+      - DB_CONNECTION=mongodb://admin:password@mongodb:27017/hala-service?authSource=admin
+    depends_on:
+      - mongodb
+    volumes:
+      - ./hala-service/backend:/app
+      - /app/node_modules
+
+  frontend:
+    build: ./hala-service/frontend
+    container_name: hala-frontend
+    restart: always
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./hala-service/frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+volumes:
+  mongodb_data:

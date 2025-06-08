@@ -23,6 +23,10 @@
   "keywords": ["airport", "services", "booking", "travel"],
   "author": "Hala Service Team",
   "license": "MIT",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
   "devDependencies": {
     "concurrently": "^7.6.0"
   }

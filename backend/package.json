@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon index.js",
     "test": "jest",
-    "build": "echo \"No build step required for backend\""
+    "build": "echo \"No build step required for backend\"",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",

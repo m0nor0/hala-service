@@ -14,7 +14,11 @@
     "test:backend": "cd backend && npm test",
     "test:frontend": "cd frontend && npm test",
     "docker:up": "docker-compose up -d",
-    "docker:down": "docker-compose down"
+    "docker:down": "docker-compose down",
+    "deploy:backend": "cd backend && npm install && npm run build",
+    "deploy:frontend": "cd frontend && npm install && npm run build",
+    "start:backend": "cd backend && node index.js",
+    "start:frontend": "cd frontend && npx serve -s build"
   },
   "keywords": ["airport", "services", "booking", "travel"],
   "author": "Hala Service Team",

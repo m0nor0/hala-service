@@ -1,0 +1,42 @@
+services:
+  # Backend API service
+  - type: web
+    name: hala-service-api
+    env: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && node index.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: MONGODB_URI
+        sync: false # This will be set manually in the Render dashboard
+      - key: JWT_SECRET
+        sync: false # This will be set manually in the Render dashboard
+      - key: JWT_EXPIRE
+        value: 30d
+      - key: EMAIL_SERVICE
+        sync: false # This will be set manually in the Render dashboard
+      - key: EMAIL_USERNAME
+        sync: false # This will be set manually in the Render dashboard
+      - key: EMAIL_PASSWORD
+        sync: false # This will be set manually in the Render dashboard
+      - key: EMAIL_FROM
+        sync: false # This will be set manually in the Render dashboard
+      - key: STRIPE_SECRET_KEY
+        sync: false # This will be set manually in the Render dashboard
+      - key: STRIPE_PUBLIC_KEY
+        sync: false # This will be set manually in the Render dashboard
+
+  # Frontend service
+  - type: web
+    name: hala-service-frontend
+    env: node
+    buildCommand: cd frontend && npm install && npm run build
+    startCommand: cd frontend && npx serve -s build
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: REACT_APP_API_URL
+        value: https://hala-service-api.onrender.com # This should match your backend service URL

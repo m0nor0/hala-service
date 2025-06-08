@@ -12,8 +12,17 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 5000;
 
+// Configure CORS for different environments
+const corsOptions = {
+  origin: process.env.NODE_ENV === 'production'
+    ? ['https://hala-service-frontend.onrender.com', 'https://hala-service.onrender.com']
+    : 'http://localhost:3000',
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+
 // Middleware
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(helmet());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));

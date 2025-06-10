@@ -4,12 +4,14 @@ services:
     name: hala-service-api
     env: node
     buildCommand: cd backend && npm install
-    startCommand: cd backend && node index.js
+    startCommand: cd backend && npm start
     envVars:
       - key: NODE_ENV
         value: production
       - key: PORT
         value: 10000
+      - key: ALLOWED_ORIGINS
+        value: https://hala-service-frontend.onrender.com,https://hala-service.onrender.com
       - key: MONGODB_URI
         sync: false # This will be set manually in the Render dashboard
       - key: JWT_SECRET
@@ -34,7 +36,7 @@ services:
     name: hala-service-frontend
     env: node
     buildCommand: cd frontend && npm install && npm run build
-    startCommand: cd frontend && npm run serve
+    startCommand: cd frontend && npx serve -s build
     envVars:
       - key: NODE_ENV
         value: production

@@ -9,7 +9,10 @@
     "vip": "VIP Services",
     "transfer": "Transfer Services",
     "baggage": "Baggage Handling",
-    "chauffeur": "Chauffeur Services"
+    "chauffeur": "Chauffeur Services",
+    "fast_track": "Fast Track",
+    "priority_checkin": "Priority Check-in",
+    "airport_lounge": "Airport Lounge Access"
   },
   "descriptions": {
     "meet_greet": "Personal assistance through airport procedures",
@@ -17,7 +20,10 @@
     "vip": "Exclusive airport experience with dedicated service",
     "transfer": "Reliable airport transfers to your destination",
     "baggage": "Professional handling of your luggage",
-    "chauffeur": "Luxury vehicle service with professional drivers"
+    "chauffeur": "Luxury vehicle service with professional drivers",
+    "fast_track": "Expedited passage through security and immigration",
+    "priority_checkin": "Skip the lines with dedicated check-in service",
+    "airport_lounge": "Relax in exclusive lounges before your flight"
   },
   "features": {
     "fast_track": "Fast Track Service",
@@ -25,5 +31,94 @@
     "lounge_access": "Lounge Access",
     "porter_service": "Porter Service",
     "private_security": "Private Security Lane"
+  },
+  "fast_track": {
+    "title": "Fast Track Service",
+    "subtitle": "Skip the lines and save time",
+    "intro": "Our Fast Track service provides expedited passage through security and immigration checkpoints, allowing you to save valuable time and avoid long queues.",
+    "options": {
+      "standard": {
+        "title": "Standard Fast Track",
+        "description": "Expedited passage through regular security and immigration lanes"
+      },
+      "premium": {
+        "title": "Premium Fast Track",
+        "description": "Priority access through dedicated fast track lanes with personal escort"
+      },
+      "family": {
+        "title": "Family Fast Track",
+        "description": "Expedited service for families with children, including assistance with strollers and baby equipment"
+      }
+    },
+    "how_it_works": {
+      "title": "How Fast Track Works",
+      "steps": [
+        "Book your Fast Track service online",
+        "Meet our representative at the designated meeting point",
+        "Our staff will escort you to the dedicated fast track lanes",
+        "Bypass the regular queues at security and immigration",
+        "Save time and continue to your gate or lounge"
+      ]
+    }
+  },
+  "priority_checkin": {
+    "title": "Priority Check-in Service",
+    "subtitle": "Start your journey with ease",
+    "intro": "Our Priority Check-in service offers dedicated counters and expedited processing, allowing you to check in for your flight quickly and efficiently.",
+    "options": {
+      "standard": {
+        "title": "Standard Priority Check-in",
+        "description": "Access to dedicated check-in counters with shorter queues"
+      },
+      "premium": {
+        "title": "Premium Priority Check-in",
+        "description": "Personal assistance with check-in process and luggage handling"
+      },
+      "group": {
+        "title": "Group Priority Check-in",
+        "description": "Streamlined check-in process for groups, ensuring everyone is seated together"
+      }
+    },
+    "how_it_works": {
+      "title": "How Priority Check-in Works",
+      "steps": [
+        "Book your Priority Check-in service online",
+        "Arrive at the airport and locate our dedicated check-in counters",
+        "Present your booking confirmation to our staff",
+        "Enjoy expedited check-in process with minimal waiting",
+        "Proceed to security with your boarding pass and checked luggage taken care of"
+      ]
+    }
+  },
+  "airport_lounge": {
+    "title": "Airport Lounge Access",
+    "subtitle": "Relax before your flight",
+    "intro": "Enjoy exclusive access to premium airport lounges where you can relax, refresh, and recharge before your flight in a comfortable environment away from the busy terminal.",
+    "options": {
+      "standard": {
+        "title": "Standard Lounge Access",
+        "description": "Access to comfortable seating, complimentary refreshments, and Wi-Fi"
+      },
+      "premium": {
+        "title": "Premium Lounge Access",
+        "description": "Enhanced lounge experience with premium food and beverages, shower facilities, and business services"
+      },
+      "vip": {
+        "title": "VIP Lounge Access",
+        "description": "Exclusive access to VIP lounges with personalized service, gourmet dining, and luxury amenities"
+      }
+    },
+    "amenities": {
+      "title": "Lounge Amenities",
+      "list": [
+        "Comfortable seating and relaxation areas",
+        "Complimentary food and beverages",
+        "High-speed Wi-Fi and charging stations",
+        "International newspapers and magazines",
+        "Shower facilities (in select lounges)",
+        "Business centers with printing services",
+        "Flight information displays"
+      ]
+    }
   }
 }

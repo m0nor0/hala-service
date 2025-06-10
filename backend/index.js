@@ -15,7 +15,7 @@ const port = process.env.PORT || 5000;
 // Configure CORS for different environments
 const corsOptions = {
   origin: process.env.NODE_ENV === 'production'
-    ? ['https://hala-service-frontend.onrender.com', 'https://hala-service.onrender.com']
+    ? process.env.ALLOWED_ORIGINS ? process.env.ALLOWED_ORIGINS.split(',') : ['https://hala-service-frontend.onrender.com', 'https://hala-service.onrender.com']
     : 'http://localhost:3000',
   credentials: true,
   optionsSuccessStatus: 200

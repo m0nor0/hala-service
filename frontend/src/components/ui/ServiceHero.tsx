@@ -28,7 +28,7 @@ const ServiceHero: React.FC<ServiceHeroProps> = ({
         fetchPriority="high"
       />
       <div className="absolute inset-0 bg-blue-600 mix-blend-multiply" aria-hidden="true" />
-      <div className="relative max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8 text-center">
+      <div className="relative max-w-7xl mx-auto py-24 px-4 sm:py-32 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-md">
           {title || t('hero.title')}
         </h1>

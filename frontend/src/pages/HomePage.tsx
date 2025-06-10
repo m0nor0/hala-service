@@ -34,6 +34,36 @@ const HomePage: React.FC = () => {
       icon: '🚗',
       link: '/services/transfer'
     },
+    {
+      title: t('services:categories.baggage'),
+      description: t('services:descriptions.baggage'),
+      icon: '🧳',
+      link: '/services/baggage'
+    },
+    {
+      title: t('services:categories.chauffeur'),
+      description: t('services:descriptions.chauffeur'),
+      icon: '🚘',
+      link: '/services/chauffeur'
+    },
+    {
+      title: t('services:categories.fast_track'),
+      description: t('services:descriptions.fast_track'),
+      icon: '⚡',
+      link: '/services/fast-track'
+    },
+    {
+      title: t('services:categories.priority_checkin'),
+      description: t('services:descriptions.priority_checkin'),
+      icon: '✅',
+      link: '/services/priority-checkin'
+    },
+    {
+      title: t('services:categories.airport_lounge'),
+      description: t('services:descriptions.airport_lounge'),
+      icon: '🍹',
+      link: '/services/airport-lounge'
+    },
   ];
 
   const testimonials = [

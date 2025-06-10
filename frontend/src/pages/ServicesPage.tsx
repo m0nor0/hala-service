@@ -10,8 +10,8 @@ const ServicesPage: React.FC = () => {
   // Services data
   const services = [
     {
-      title: t('services:categories.meet-greet'),
-      description: t('services:descriptions.meet-greet'),
+      title: t('services:categories.meet_greet'),
+      description: t('services:descriptions.meet_greet'),
       icon: '👋',
       link: '/services/meet-greet'
     },
@@ -44,6 +44,24 @@ const ServicesPage: React.FC = () => {
       description: t('services:descriptions.chauffeur'),
       icon: '🚘',
       link: '/services/chauffeur'
+    },
+    {
+      title: t('services:categories.fast_track'),
+      description: t('services:descriptions.fast_track'),
+      icon: '⚡',
+      link: '/services/fast-track'
+    },
+    {
+      title: t('services:categories.priority_checkin'),
+      description: t('services:descriptions.priority_checkin'),
+      icon: '✅',
+      link: '/services/priority-checkin'
+    },
+    {
+      title: t('services:categories.airport_lounge'),
+      description: t('services:descriptions.airport_lounge'),
+      icon: '🍹',
+      link: '/services/airport-lounge'
     }
   ];
 

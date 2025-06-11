@@ -169,7 +169,7 @@ const AirportLoungePage: React.FC = () => {
                     </p>
                     <div className="mt-5 prose prose-indigo text-gray-500">
                       <p>
-                        {t('services:lounge.content.paragraph1', 'Whether you're traveling for business or leisure, our lounge access service offers a peaceful environment where you can relax, work, or enjoy refreshments before your flight. Escape the crowded terminal and enjoy premium amenities in a comfortable setting.')}
+                        {t('services:lounge.content.paragraph1', "Whether you're traveling for business or leisure, our lounge access service offers a peaceful environment where you can relax, work, or enjoy refreshments before your flight. Escape the crowded terminal and enjoy premium amenities in a comfortable setting.")}
                       </p>
                       <p>
                         {t('services:lounge.content.paragraph2', 'We provide access to a network of premium lounges across major airports worldwide. Each lounge offers a range of amenities including comfortable seating, complimentary food and beverages, Wi-Fi, and business facilities.')}

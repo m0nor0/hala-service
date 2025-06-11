@@ -168,7 +168,7 @@ const FastTrackPage: React.FC = () => {
                         {t('services:fast_track.content.paragraph1', 'Airport security and immigration procedures can be time-consuming, especially during peak travel periods. Our Fast Track service provides expedited processing through these checkpoints, allowing you to move through the airport quickly and efficiently.')}
                       </p>
                       <p>
-                        {t('services:fast_track.content.paragraph2', 'With our Fast Track service, you'll be escorted to dedicated priority lanes, bypassing the regular queues. Our experienced staff will assist you throughout the process, ensuring a smooth and hassle-free experience.')}
+                        {t('services:fast_track.content.paragraph2', "With our Fast Track service, you'll be escorted to dedicated priority lanes, bypassing the regular queues. Our experienced staff will assist you throughout the process, ensuring a smooth and hassle-free experience.")}
                       </p>
                     </div>
                   </div>

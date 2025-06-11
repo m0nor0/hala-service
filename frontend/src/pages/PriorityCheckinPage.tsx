@@ -87,7 +87,7 @@ const PriorityCheckinPage: React.FC = () => {
     },
     {
       title: t('services:priority_checkin.benefits.luggage', 'Luggage Priority'),
-      description: t('services:priority_checkin.benefits.luggage_desc', 'Your luggage receives priority handling, ensuring it's among the first to arrive at baggage claim.'),
+      description: t('services:priority_checkin.benefits.luggage_desc', "Your luggage receives priority handling, ensuring it's among the first to arrive at baggage claim."),
       icon: '🧳',
     },
     {
@@ -168,7 +168,7 @@ const PriorityCheckinPage: React.FC = () => {
                         {t('services:priority_checkin.content.paragraph1', 'Airport check-in can often be time-consuming, especially during peak travel periods. Our Priority Check-in service provides access to dedicated counters with shorter queues, allowing you to complete the check-in process quickly and efficiently.')}
                       </p>
                       <p>
-                        {t('services:priority_checkin.content.paragraph2', 'With our Priority Check-in service, you'll receive personalized assistance from our professional staff who will handle your check-in process, ensuring your boarding passes are issued promptly and your luggage is tagged for priority handling.')}
+                        {t('services:priority_checkin.content.paragraph2', "With our Priority Check-in service, you'll receive personalized assistance from our professional staff who will handle your check-in process, ensuring your boarding passes are issued promptly and your luggage is tagged for priority handling.")}
                       </p>
                     </div>
                   </div>

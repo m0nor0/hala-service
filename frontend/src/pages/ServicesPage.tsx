@@ -44,6 +44,24 @@ const ServicesPage: React.FC = () => {
       description: t('services:descriptions.chauffeur'),
       icon: '🚘',
       link: '/services/chauffeur'
+    },
+    {
+      title: t('services:categories.airport_lounge', 'Airport Lounge'),
+      description: t('services:descriptions.airport_lounge', 'Relax in exclusive airport lounges before your flight.'),
+      icon: '🛋️',
+      link: '/services/airport-lounge'
+    },
+    {
+      title: t('services:categories.fast_track', 'Fast Track'),
+      description: t('services:descriptions.fast_track', 'Skip the long lines at security and immigration checkpoints.'),
+      icon: '⚡',
+      link: '/services/fast-track'
+    },
+    {
+      title: t('services:categories.priority_checkin', 'Priority Check-in'),
+      description: t('services:descriptions.priority_checkin', 'Expedited check-in process with dedicated counters.'),
+      icon: '✓',
+      link: '/services/priority-checkin'
     }
   ];
 
@@ -51,27 +69,32 @@ const ServicesPage: React.FC = () => {
     {
       name: t('services:features.fast_track'),
       description: t('services:feature_descriptions.fast_track', 'Skip the long lines at security and immigration checkpoints.'),
-      icon: '⚡'
+      icon: '⚡',
+      link: '/services/fast-track'
     },
     {
       name: t('services:features.priority_checkin'),
       description: t('services:feature_descriptions.priority_checkin', 'Expedited check-in process with dedicated counters.'),
-      icon: '✓'
+      icon: '✓',
+      link: '/services/priority-checkin'
     },
     {
       name: t('services:features.lounge_access'),
       description: t('services:feature_descriptions.lounge_access', 'Relax in exclusive airport lounges before your flight.'),
-      icon: '🛋️'
+      icon: '🛋️',
+      link: '/services/airport-lounge'
     },
     {
       name: t('services:features.porter_service'),
       description: t('services:feature_descriptions.porter_service', 'Assistance with your luggage throughout the airport.'),
-      icon: '🧳'
+      icon: '🧳',
+      link: '/services/baggage'
     },
     {
       name: t('services:features.private_security'),
       description: t('services:feature_descriptions.private_security', 'Private security screening for enhanced privacy and comfort.'),
-      icon: '🔒'
+      icon: '🔒',
+      link: '/services/vip'
     }
   ];
 
@@ -131,7 +154,15 @@ const ServicesPage: React.FC = () => {
                     <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
                       <span className="text-2xl">{feature.icon}</span>
                     </div>
-                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">{feature.name}</p>
+                    <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
+                      {feature.link ? (
+                        <Link to={feature.link} className="hover:text-blue-600">
+                          {feature.name}
+                        </Link>
+                      ) : (
+                        feature.name
+                      )}
+                    </p>
                   </dt>
                   <dd className="mt-2 ml-16 text-base text-gray-500">{feature.description}</dd>
                 </div>
